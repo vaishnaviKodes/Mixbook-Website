@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: #0e2f47;
+  /* color: #413d3d; */
+}
+
+/* navbar 1 starts */
+
+.navbar1 {
+  width: 100vw;
+  height: 20px;
+  padding: 8px 0;
+
+  text-align: center;
+  background-color: #f6dede;
+}
+
+.navbar1 p {
+  font-size: 0.875rem;
+  letter-spacing: 0.018rem;
+  line-height: 1.429em;
+  /* color: black; */
+  font-weight: 200;
+}
+
+/* navbar1 ends */
+
+/* navbar2 starts */
+
+.navbar2 {
+  width: 100vw;
+  height: 20px;
+  padding: 8px 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  max-height: 2rem;
+  font-size: 0.87rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Apply custom styles to the button in the .navbar2 section */
+.navbar2 button {
+  background-color: transparent;
+  padding: 0 10px;
+  margin: 0 10px;
+  border-radius: 4px;
+  color: #0e2f47;
+  border: 1px solid #0e2f47; /* Add border definition */
+  font-size: 11px;
+  font-weight: 700;
+  height: 22px;
+  cursor: pointer;
+}
+
+.navbar2-element2 a {
+  text-decoration: none;
+}
+
+/* navbar 2 ends */
+
+/* navbar 3 starts */
+
+.navbar3 {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 16px 0;
+  width: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar3-element1-item-image img {
+  height: 44px;
+  width: 159px;
+  box-sizing: border-box;
+}
+.navbar3-element1 {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar3-element1-item {
+  margin: auto;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar3-element2 {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar3-element2-item {
+  margin: auto;
+  cursor: pointer;
+}
+
+/* navbar 3 ends */
+
+/* hero-section starts */
+
+.hero-section {
+  height: 95vh;
+  background-color: #f6fafc;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: lightblue; */
+}
+
+.content .heading1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.005rem;
+}
+
+.content .heading1 .design {
+  font-family: Silver South Script, Garamond, Baskerville, serif;
+  font-size: 90px;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+}
+
+.content .heading2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.016rem;
+  line-height: 1.5em;
+  text-align: center;
+  color: #000;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .section3-button {
+  background: #ff6b70;
+  color: #fff;
+  /* opacity: 0.5; */
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.021rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 2.2rem;
+  padding: 32px 64px;
+  padding: 0 15px;
+  margin: 0.5rem;
+  border: none;
+}
+
+/* hero-section ends */
+
+/* section 4 starts */
+
+.section4-box {
+  padding: 40px;
+}
+
+.section4-box p {
+  text-align: center;
+}
+
+.section4-box-element1 .img {
+  max-height: 20px;
+}
+.section4-box-element1 {
+  margin: 0 20px;
+  text-align: center;
+}
+.section4-box-element1 p {
+  color: #7f8e99;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 0.016rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.section4-box-element1 img {
+  max-height: 20px;
+  margin: 4px;
+}
+.section4-box-element2 {
+  display: flex;
+  margin: 0 20px;
+}
+
+.section4-box-element3 {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.section4-box-element2-image {
+  height: 75px;
+  width: 70px;
+}
+
+.section4-box-element2-middle-item {
+  text-align: center;
+}
+
+.logo2 {
+  max-height: 20px;
+}
+
+.section4-box {
+  display: flex;
+  justify-content: center;
+}
+
+.section4-box-element3 p {
+  color: #7f8e99;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 0.016rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.section4-box-element3 img {
+  max-height: 20px;
+  margin: 4px;
+}
+
+.section4-box-element2-middle-item1 {
+  text-align: center;
+  word-break: break-word;
+  color: #0e2f47;
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.section4-box-element2-middle-item2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.section4-box-element2-middle-item3 {
+  text-align: center;
+  color: #69b9b8;
+  cursor: pointer;
+}
+
+/* section 4 ends */
+
+/* section 5 starts */
+
+.section5 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  padding: 4% 15%;
+  gap: 45px;
+  background-color: #f6fbfb;
+  padding-bottom: 0;
+}
+
+.section5-element2 img {
+  height: 80%;
+}
+
+.section5-element1 {
+  display: grid;
+  align-content: center;
+}
+.section5-element1-item1 {
+  font-size: 2rem;
+  line-height: 1.2em;
+  letter-spacing: 0.065rem;
+}
+
+.section5-element1-item2 {
+  font-size: 1rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+.section5-element1-button {
+  padding: 17px;
+  margin-top: 17px;
+  background-color: #ff6b70;
+  border: none;
+  border-radius: 4px;
+  text-color: white;
+  color: white;
+  font-size: xx-small;
+  font-weight: 700;
+  letter-spacing: 0.021rem;
+}
+
+/* section 5 ends */
+
+/* section 6 starts  */
+
+.section6-content {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.6rem;
+  letter-spacing: 0.06rem;
+}
+
+/* section 6 ends */
+
+/* section7 starts */
+
+.section7-cards img {
+  height: 70vh;
+}
+
+.section7-cards heading {
+  background-color: rgba(246, 244, 245, 0.75);
+  bottom: 0;
+  color: currentcolor;
+  font-size: 1.25rem;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 0.015rem;
+  text-align: center;
+  line-height: 1.2em;
+  padding: 1rem;
+}
+
+.section7-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section7-cards img {
+  padding: 0 10px;
+}
+
+.section7-card {
+  position: relative;
+}
+
+/* section 7 ends */
